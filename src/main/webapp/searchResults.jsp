@@ -1,16 +1,18 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: SS
-  Date: 28.05.2024
-  Time: 8:10
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="org.json.JSONArray, org.json.JSONObject" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head><title>Search Results</title></head>
+<body>
+<h2>Search Results</h2>
+<%
+    JSONArray articles = (JSONArray) request.getAttribute("articles");
+    for (int i = 0; i < articles.length(); i++) {
+        JSONObject article = articles.getJSONObject(i);
+%>
+<div>
+    <h3><a href="viewArticle?id=<%= article.getInt("id") %>"><%= article.getString("title") %></a></h3>
+</div>
+<%
+    }
+%>
+</body>
 </html>

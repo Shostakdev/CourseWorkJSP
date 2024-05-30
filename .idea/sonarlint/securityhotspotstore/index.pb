@@ -1,3 +1,37 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+a
+1src/main/java/wiki/controllers/SearchServlet.java,5\d\5d2188a6dcb949905350d70377f016d4c0639eee
+Y
+)src/main/java/wiki/models/ArticleDAO.java,7\9\7928a19c6477502d0e6e116cc744575e1279d4c7
+Q
+!src/main/webapp/searchResults.jsp,7\e\7e6c3bae84bbc7b7d14c68337de8471d0ced6d15
+f
+6src/main/java/wiki/controllers/ViewArticleServlet.java,8\8\8838d3c50250a6395e6890571d76884e0f78f329
+O
+src/main/webapp/viewArticle.jsp,0\7\078e89bd7f3343d09288293d0589003a850e73c4
+c
+3src/main/java/wiki/controllers/CategoryServlet.java,5\5\55807a5de1046fa360e82c0e4fc2400ed437eb71
+Z
+*src/main/java/wiki/models/CategoryDAO.java,9\2\9279f846ee0a73234c177d526906752985b655f6
+N
+src/main/webapp/categories.jsp,9\2\921f9345b10161fa377df680187d41f1b9f4a4d4
+e
+5src/main/java/wiki/controllers/AddArticleServlet.java,0\6\065b791c4cc3092b4db7b8000ec2ddd9a4780346
+N
+src/main/webapp/addArticle.jsp,f\9\f9f5ee5f0cd338e7fa65efe14d75ede750b122cf
+V
+&src/main/java/wiki/models/UserDAO.java,1\7\177580bd9878e60192dd680a920c19d7b62fd912
+f
+6src/main/java/wiki/controllers/UserProfileServlet.java,4\d\4d7054cfe07625722e31761906715bdbf759a390
+K
+src/main/webapp/profile.jsp,3\9\3932b6a22a1db264677b40c5b9307e011739496b
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+]
+-src/test/java/wiki/models/ArticleDAOTest.java,9\6\96e14b43704de5afd96bf05548542f76f476cac8
+e
+5src/test/java/wiki/controllers/SearchServletTest.java,2\1\211bd82e143e8fedbab863c62a16c90763a40921

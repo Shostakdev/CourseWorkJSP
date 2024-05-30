@@ -1,7 +1,56 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <display-name>Article Management Application</display-name>
 
-<web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>wiki.controllers.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewArticleServlet</servlet-name>
+    <servlet-class>wiki.controllers.ViewArticleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewArticleServlet</servlet-name>
+    <url-pattern>/viewArticle</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>wiki.controllers.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/category</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddArticleServlet</servlet-name>
+    <servlet-class>wiki.controllers.AddArticleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddArticleServlet</servlet-name>
+    <url-pattern>/addArticle</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserProfileServlet</servlet-name>
+    <servlet-class>wiki.controllers.UserProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserProfileServlet</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
 </web-app>

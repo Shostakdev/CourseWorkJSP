@@ -1,16 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: SS
-  Date: 28.05.2024
-  Time: 8:14
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head><title>Add Article</title></head>
+<body>
+<h2>Add New Article</h2>
+<form action="addArticle" method="post">
+    <label>Title:</label>
+    <input type="text" name="title"/><br/>
+    <label>Content:</label>
+    <textarea name="content"></textarea><br/>
+    <label>Tags:</label>
+    <input type="text" name="tags"/><br/>
+    <input type="submit" value="Add Article"/>
+</form>
+</body>
 </html>
